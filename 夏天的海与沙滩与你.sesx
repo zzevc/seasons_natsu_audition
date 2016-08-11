@@ -5,15 +5,15 @@
   <session appBuild="8.0.0.192" appVersion="8.0" audioChannelType="stereo" bitDepth="32" duration="18836832" sampleRate="44100">
     <name>夏天的海与沙滩与你.sesx</name>
     <tracks>
-      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="true" visible="true">
-        <trackParameters trackHeight="408" trackHue="-1" trackMinimized="false">
-          <name>轨道 1</name>
+      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="false" visible="true">
+        <trackParameters trackHeight="57" trackHue="264" trackMinimized="false">
+          <name>宝宝人声轨</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
           <trackOutput outputID="10000" type="trackID"/>
           <trackInput inputID="1"/>
           <component componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
-            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="0" name="volume" parameterValue="1.4125375"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
           <component componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
@@ -23,52 +23,52 @@
           <component componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
             <parameter index="0" name="声像" parameterValue="0"/>
           </component>
-          <component componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
-            <parameter index="0" name="下限频率" parameterValue="0.0009079"/>
+          <component componentID="Audition.EQ" editorHeight="673" editorLeft="887" editorTop="481" editorWidth="924" id="trackEQ" name="EQ" powered="true">
+            <parameter index="0" name="下限频率" parameterValue="0.000834"/>
             <parameter index="1" name="下限增益" parameterValue="0.5"/>
-            <parameter index="2" name="上限频率" parameterValue="0.8161598"/>
+            <parameter index="2" name="上限频率" parameterValue="0.749792"/>
             <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
-            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.0013618"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.001251"/>
             <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.0002"/>
             <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
-            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
-            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0081707"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="0.753769"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075063"/>
             <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.0002"/>
             <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
-            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
-            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0354063"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="0.753769"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0336"/>
             <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.0002"/>
-            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
-            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
-            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1443486"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.6105263"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="0.753769"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.132611"/>
             <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.0002"/>
             <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
-            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
-            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.580118"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="0.753769"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.603815"/>
             <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.0002"/>
-            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
-            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
-            <parameter index="24" name="主控增益" parameterValue="0.6666667"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.4157895"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="0.753769"/>
+            <parameter index="24" name="主控增益" parameterValue="0.666667"/>
             <parameter index="25" name="恒定 Q" parameterValue="1"/>
             <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
             <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
             <parameter index="28" name="超静音模式" parameterValue="0"/>
-            <parameter index="29" name="下限启用" parameterValue="1"/>
-            <parameter index="30" name="上限频率启用" parameterValue="1"/>
-            <parameter index="31" name="原始采样率" parameterValue="0.2296875"/>
+            <parameter index="29" name="下限启用" parameterValue="0.753769"/>
+            <parameter index="30" name="上限频率启用" parameterValue="0.753769"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
             <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.0025"/>
             <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.01"/>
             <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.04"/>
             <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.16"/>
             <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.64"/>
             <parameter index="37" name="高通滤波启用" parameterValue="0"/>
-            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0.000834"/>
             <parameter index="39" name="高通斜率" parameterValue="4"/>
             <parameter index="40" name="低通滤波启用" parameterValue="0"/>
-            <parameter index="41" name="低通切除频率" parameterValue="0.906945"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.749792"/>
             <parameter index="42" name="低通斜率" parameterValue="4"/>
             <parameter index="43" name="旁路" parameterValue="0"/>
-            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+            <parameter index="44" name="下限图示范围" parameterValue="0"/>
           </component>
         </trackAudioParameters>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
@@ -186,7 +186,38 @@
             <component id="sendPan" powered="true"/>
           </sendSlot>
         </sendList>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="18061357" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="(fin)主轨导出" offline="false" select="true" sourceInPoint="567251" sourceOutPoint="18628608" startPoint="0" zOrder="5">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="18061357" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="(fin)主轨导出" offline="false" select="false" sourceInPoint="1642459" sourceOutPoint="18628608" startPoint="1075208" zOrder="33">
+          <effectsRack preFader="true">
+            <component id="rackMix" powered="true">
+              <parameter index="0" parameterValue="0"/>
+              <parameter index="1" parameterValue="0"/>
+            </component>
+            <component id="rackInput" powered="true">
+              <parameter index="0" parameterValue="1"/>
+              <parameter index="1" parameterValue="0"/>
+            </component>
+            <component id="rackOutput" powered="true">
+              <parameter index="0" parameterValue="1"/>
+              <parameter index="1" parameterValue="0"/>
+            </component>
+            <slot powered="true" slotIndex="0">
+              <component componentID="7ea99d31-ca8f-454f-acd7-81a258efb336" editorHeight="613" editorLeft="546" editorTop="267" editorWidth="571" name="室内混响">
+                <parameter index="0" name="低频剪切" parameterValue="0.0954774"/>
+                <parameter index="1" name="高频剪切" parameterValue="0.299299"/>
+                <parameter index="2" name="房间大小" parameterValue="0.0909091"/>
+                <parameter index="3" name="宽度" parameterValue="1"/>
+                <parameter index="4" name="扩散" parameterValue="1"/>
+                <parameter index="5" name="正在衰减" parameterValue="0.8"/>
+                <parameter index="6" name="衰减" parameterValue="0.22449"/>
+                <parameter index="7" name="早反射" parameterValue="0.6"/>
+                <parameter index="8" name="早反射延迟" parameterValue="0.5"/>
+                <parameter index="9" name="干输出电平" parameterValue="0.8"/>
+                <parameter index="10" name="湿输出电平" parameterValue="0.25"/>
+                <parameter index="11" name="正在处理" parameterValue="0.7537689"/>
+                <parameter index="12" name="声道数" parameterValue="0.0625"/>
+              </component>
+            </slot>
+          </effectsRack>
           <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
@@ -198,8 +229,8 @@
           <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
             <parameter index="0" name="声像" parameterValue="0"/>
           </component>
-          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="18061357" shape="0" startPoint="18061357" type="cosine"/>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="71369" shape="7" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="16986149" shape="0" startPoint="16986149" type="cosine"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <channelMap>
@@ -209,14 +240,14 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
-        <trackParameters trackHeight="408" trackHue="178.20686817169189" trackMinimized="false">
-          <name>轨道 2</name>
+        <trackParameters trackHeight="57" trackHue="66.000002727901375" trackMinimized="false">
+          <name>伴奏轨</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
           <trackOutput outputID="10000" type="trackID"/>
           <trackInput inputID="1"/>
           <component componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
-            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="0" name="volume" parameterValue="1.1220185"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
           <component componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
@@ -389,7 +420,7 @@
             <component id="sendPan" powered="true"/>
           </sendSlot>
         </sendList>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="18062381" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="(fin)伴奏导出" offline="false" select="false" sourceInPoint="567251" sourceOutPoint="18629632" startPoint="0" zOrder="4">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="18062381" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="(fin)伴奏导出" offline="false" select="false" sourceInPoint="567251" sourceOutPoint="18629632" startPoint="0" zOrder="7">
           <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1"/>
@@ -401,7 +432,7 @@
           <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
             <parameter index="0" name="声像" parameterValue="0"/>
           </component>
-          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="77897" shape="19" startPoint="0" type="log"/>
           <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="18062381" shape="0" startPoint="18062381" type="cosine"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
@@ -412,7 +443,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10003" index="3" select="false" visible="true">
-        <trackParameters trackHeight="408" trackHue="36.387619972229004" trackMinimized="false">
+        <trackParameters trackHeight="57" trackHue="36.387619972229004" trackMinimized="false">
           <name>轨道 3</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -594,7 +625,7 @@
         </sendList>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10004" index="4" select="false" visible="true">
-        <trackParameters trackHeight="408" trackHue="86.697793006896973" trackMinimized="false">
+        <trackParameters trackHeight="57" trackHue="86.697793006896973" trackMinimized="false">
           <name>轨道 4</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -776,7 +807,7 @@
         </sendList>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10005" index="5" select="false" visible="true">
-        <trackParameters trackHeight="408" trackHue="226.4877462387085" trackMinimized="false">
+        <trackParameters trackHeight="57" trackHue="226.4877462387085" trackMinimized="false">
           <name>轨道 5</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -957,8 +988,8 @@
           </sendSlot>
         </sendList>
       </audioTrack>
-      <audioTrack automationLaneOpenState="false" id="10006" index="6" select="false" visible="true">
-        <trackParameters trackHeight="408" trackHue="22.065138816833496" trackMinimized="false">
+      <audioTrack automationLaneOpenState="false" id="10006" index="6" select="true" visible="true">
+        <trackParameters trackHeight="57" trackHue="22.065138816833496" trackMinimized="false">
           <name>轨道 6</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -1140,8 +1171,8 @@
         </sendList>
       </audioTrack>
       <masterTrack automationLaneOpenState="false" id="10000" index="7" select="false" visible="true">
-        <trackParameters trackHeight="408" trackHue="-1" trackMinimized="false">
-          <name>主</name>
+        <trackParameters trackHeight="57" trackHue="-1" trackMinimized="false">
+          <name>主轨</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
           <trackOutput outputID="1" type="hardwareOutput"/>
@@ -1205,12 +1236,31 @@
             <parameter index="44" name="下限图示范围" parameterValue="1"/>
           </component>
         </trackAudioParameters>
+        <effectsRack preFader="true">
+          <component id="rackMix" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component id="rackInput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <component id="rackOutput" powered="true">
+            <parameter index="0" parameterValue="1.7782795"/>
+            <parameter index="1" parameterValue="0"/>
+          </component>
+          <slot powered="true" slotIndex="0">
+            <component componentID="3:5653545a 6e435253 7572726f 756e6420" editorHeight="454" editorLeft="487" editorTop="288" editorWidth="946" name="环绕声混响">
+              <presetChunkData><![CDATA[SRAAAAAAAABJEAAAAAAAADmARAAAAAAAPRAAAAAAmUIAAAAAAADIQgAAlkIAAIxCAAAQQQAABEMAAApDAAAgQQAAAAAAAAAAAAA6QgAAIEAEAAAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOYBEAAAAAAA9EAAAAACZQgAAAAAAAMhCAACWQgAAjEIAABBBAAAEQwAACkMAACBBAAAAAAAAAAAAADpCAAAgQAQAAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></presetChunkData>
+            </component>
+          </slot>
+        </effectsRack>
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </masterTrack>
     </tracks>
-    <sessionState ctiPosition="564159" smpteStart="0">
-      <selectionState selectionDuration="0" selectionStart="564159"/>
-      <viewState horizontalViewDuration="13128409" horizontalViewStart="0" trackControlsWidth="224" verticalScrollOffset="-176"/>
+    <sessionState ctiPosition="6658234" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="6658234"/>
+      <viewState horizontalViewDuration="7932714" horizontalViewStart="0" trackControlsWidth="224" verticalScrollOffset="0"/>
       <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
       <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3"/>
     </sessionState>
@@ -1226,9 +1276,9 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition CC 2015.0 (Windows)</xmp:CreatorTool>
          <xmp:CreateDate>2016-08-11T22:57:41+08:00</xmp:CreateDate>
-         <xmp:MetadataDate>2016-08-11T23:03:15+08:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2016-08-11T23:03:15+08:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:eeca7a2f-857f-4842-8296-f592a2c8e5a1</xmpMM:InstanceID>
+         <xmp:MetadataDate>2016-08-11T23:18:49+08:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2016-08-11T23:18:49+08:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:c359cf49-e42a-5c49-bca5-7c49411c653c</xmpMM:InstanceID>
          <xmpMM:DocumentID>xmp.did:685210fc-c79e-7e4b-b4c0-a0c4c3c715b8</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:faf84c6f-a883-9646-a225-884e16945a84</xmpMM:OriginalDocumentID>
          <xmpMM:History>
@@ -1321,6 +1371,230 @@
                   <stEvt:action>saved</stEvt:action>
                   <stEvt:instanceID>xmp.iid:eeca7a2f-857f-4842-8296-f592a2c8e5a1</stEvt:instanceID>
                   <stEvt:when>2016-08-11T23:03:15+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:78ea29fa-7fc0-434d-8eca-98bd4272a7d2</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:04:14+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:64c01294-c602-e846-8a6d-863b3aba6b51</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:04:14+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:8a45a781-2dd0-244c-b68f-0fcdeacb2417</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:04:26+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:46d0f6d9-5cfd-4846-b84f-55583c8d18a5</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:04:26+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:303ed6b5-a46e-b44e-bac5-1b2c7e3800fa</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:04:31+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:3c23d358-6ab1-7148-aa01-bfca12496f6a</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:04:31+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ef4560d9-45d3-2a49-a1e0-9d87a4bd93b5</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:05:09+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b5faab08-616c-8f49-a900-58391740c198</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:05:09+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d12a9c2a-7d76-7c4a-9d8d-9aa5e36465dd</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:05:36+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:db0bb900-6a07-dc47-b82c-130451a53daa</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:05:36+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7111434e-639f-014e-9c67-833f3548e0ee</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:06:38+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:feb9f679-b8a0-3040-b71e-35ed8f482ebe</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:06:38+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:7632d5d4-47d6-6f49-85d9-9cd5b3e3fca2</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:07:10+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:cc6dfe7c-edae-a940-b1e5-71cf28a2e3f9</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:07:10+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d932203c-84eb-cf4f-abbc-940b988e4a36</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:07:24+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:604d60b7-83eb-f54a-bfc1-649b32f8d13e</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:07:24+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ef509755-bcda-4f4e-924a-26d5d95cf189</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:07:47+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:1ef7aef0-789d-4341-a03d-5d86d57c053c</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:07:47+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2fa83f69-f0ce-d740-bddb-ed0f5bd25967</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:08:06+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:963a9898-161f-934a-bfed-4b34b63cdb9a</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:08:06+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ab51f185-ff4e-ae43-8a82-5f7c3d8670c7</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:09:20+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:523054c1-bc2d-4e4c-9ed4-0e3b2229c4d2</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:09:20+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:749fa4f2-464e-a64c-a03d-e71d69475ad3</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:15:16+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2f504cb6-8f0b-534c-bdad-f6dd96a2e865</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:15:16+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:39650a98-618c-f747-9d7e-d9d078fd1a6e</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:15:54+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f3ef7039-6d2d-db47-a2ff-c301176f950b</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:15:54+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:c00f50e8-f657-8e46-969d-2629fdf6d255</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:17:37+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:40b9cce3-0788-9e44-a7df-12e7aa4f0c51</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:17:37+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:3c4f10ce-1180-6548-a035-5af805490f77</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:17:42+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:26a0d849-edec-6446-b6bf-3fc566cddebe</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:17:42+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:e3818a6b-2c63-1f42-b275-158b0c5af780</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:18:49+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:c359cf49-e42a-5c49-bca5-7c49411c653c</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:18:49+08:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
