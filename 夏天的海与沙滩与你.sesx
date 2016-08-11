@@ -6,8 +6,8 @@
     <name>夏天的海与沙滩与你.sesx</name>
     <tracks>
       <audioTrack automationLaneOpenState="false" id="10001" index="1" select="false" visible="true">
-        <trackParameters trackHeight="57" trackHue="264" trackMinimized="false">
-          <name>宝宝人声轨</name>
+        <trackParameters trackHeight="54" trackHue="264" trackMinimized="false">
+          <name>人声轨</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
           <trackOutput outputID="10000" type="trackID"/>
@@ -240,7 +240,7 @@
         </audioClip>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
-        <trackParameters trackHeight="57" trackHue="66.000002727901375" trackMinimized="false">
+        <trackParameters trackHeight="54" trackHue="66.000002727901375" trackMinimized="false">
           <name>伴奏轨</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -442,8 +442,8 @@
           </channelMap>
         </audioClip>
       </audioTrack>
-      <audioTrack automationLaneOpenState="false" id="10003" index="3" select="true" visible="true">
-        <trackParameters trackHeight="57" trackHue="36.387619972229004" trackMinimized="false">
+      <audioTrack automationLaneOpenState="false" id="10003" index="3" select="false" visible="true">
+        <trackParameters trackHeight="54" trackHue="36.387619972229004" trackMinimized="false">
           <name>轨道 3</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -624,8 +624,8 @@
           </sendSlot>
         </sendList>
       </audioTrack>
-      <audioTrack automationLaneOpenState="false" id="10004" index="4" select="false" visible="true">
-        <trackParameters trackHeight="57" trackHue="86.697793006896973" trackMinimized="false">
+      <audioTrack automationLaneOpenState="false" id="10004" index="4" select="true" visible="true">
+        <trackParameters trackHeight="54" trackHue="86.697793006896973" trackMinimized="false">
           <name>轨道 4</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -807,7 +807,7 @@
         </sendList>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10005" index="5" select="false" visible="true">
-        <trackParameters trackHeight="57" trackHue="226.4877462387085" trackMinimized="false">
+        <trackParameters trackHeight="54" trackHue="226.4877462387085" trackMinimized="false">
           <name>轨道 5</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -989,7 +989,7 @@
         </sendList>
       </audioTrack>
       <audioTrack automationLaneOpenState="false" id="10006" index="6" select="false" visible="true">
-        <trackParameters trackHeight="57" trackHue="22.065138816833496" trackMinimized="false">
+        <trackParameters trackHeight="54" trackHue="22.065138816833496" trackMinimized="false">
           <name>轨道 6</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
@@ -1171,7 +1171,7 @@
         </sendList>
       </audioTrack>
       <masterTrack automationLaneOpenState="false" id="10000" index="7" select="false" visible="true">
-        <trackParameters trackHeight="57" trackHue="-1" trackMinimized="false">
+        <trackParameters trackHeight="54" trackHue="-1" trackMinimized="false">
           <name>主轨</name>
         </trackParameters>
         <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
@@ -1276,9 +1276,9 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition CC 2015.0 (Windows)</xmp:CreatorTool>
          <xmp:CreateDate>2016-08-11T22:57:41+08:00</xmp:CreateDate>
-         <xmp:MetadataDate>2016-08-11T23:24:11+08:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2016-08-11T23:24:11+08:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:055e9d3b-bfd1-3c4f-b65b-3bf96df7d4ec</xmpMM:InstanceID>
+         <xmp:MetadataDate>2016-08-11T23:29:09+08:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2016-08-11T23:29:09+08:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:b96a7de8-f58f-9c4d-98f8-148e5d8a5b2f</xmpMM:InstanceID>
          <xmpMM:DocumentID>xmp.did:685210fc-c79e-7e4b-b4c0-a0c4c3c715b8</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:faf84c6f-a883-9646-a225-884e16945a84</xmpMM:OriginalDocumentID>
          <xmpMM:History>
@@ -1623,6 +1623,20 @@
                   <stEvt:action>saved</stEvt:action>
                   <stEvt:instanceID>xmp.iid:055e9d3b-bfd1-3c4f-b65b-3bf96df7d4ec</stEvt:instanceID>
                   <stEvt:when>2016-08-11T23:24:11+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2b8bc9f8-c792-8645-a3ea-1944302a36cd</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:29:09+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b96a7de8-f58f-9c4d-98f8-148e5d8a5b2f</stEvt:instanceID>
+                  <stEvt:when>2016-08-11T23:29:09+08:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition CC 2015.0 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
